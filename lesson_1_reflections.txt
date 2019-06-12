@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    it compares the two versions of the code and shows what are the differencies so that makes it easy to say where is the bug in the code
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    some times we need to restore some codes we changed and it's hard and space wasting to save every version of code in a seoerated file so by having the access to the whle history of the file we can reflect any old code in the same file
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    manually
+
+    pros:
+    - more flixable
+    cons
+    - some times the programmer forget to commit
+
+    Auto
+    pros
+    - every thing will be commited without forgetting anything
+    cons
+    - maybe too many commits for small changes
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    git is designed for codes while google docs designed for any text data, in the code case sometimes many file dependes on each other, for example file A call a function the exist in file B so if the programmer change the function parameters in file B he should change them also in file A so using one commit make it easy to restore changes in one command.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    By exploring the history of commits then compare any followed versions togather
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    since i have the control over the history and i can revert any changes i will be able to try any change even if i am not sure if that change will keep the code running well
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    to keep traking my code and to share it with my team
